@@ -1,0 +1,10 @@
+C:\Users\User\OneDrive\Documentos\2º ano\2º semestre\BD\BD2023\BD2023\bin\Debug\BD2023.exe.config
+C:\Users\User\OneDrive\Documentos\2º ano\2º semestre\BD\BD2023\BD2023\bin\Debug\BD2023.exe
+C:\Users\User\OneDrive\Documentos\2º ano\2º semestre\BD\BD2023\BD2023\bin\Debug\BD2023.pdb
+C:\Users\User\OneDrive\Documentos\2º ano\2º semestre\BD\BD2023\BD2023\obj\Debug\BD2023.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Documentos\2º ano\2º semestre\BD\BD2023\BD2023\obj\Debug\BD2023.Properties.Resources.resources
+C:\Users\User\OneDrive\Documentos\2º ano\2º semestre\BD\BD2023\BD2023\obj\Debug\BD2023.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\Documentos\2º ano\2º semestre\BD\BD2023\BD2023\obj\Debug\BD2023.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Documentos\2º ano\2º semestre\BD\BD2023\BD2023\obj\Debug\BD2023.exe
+C:\Users\User\OneDrive\Documentos\2º ano\2º semestre\BD\BD2023\BD2023\obj\Debug\BD2023.pdb
+C:\Users\User\OneDrive\Documentos\2º ano\2º semestre\BD\BD2023\BD2023\obj\Debug\BD2023.Form2.resources

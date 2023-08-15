@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A0954D98-D5C9-4A2E-B256-251990713D9B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BD2023</RootNamespace>
+    <AssemblyName>BD2023</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inicialpage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inicialpage.Designer.cs">
+      <DependentUpon>inicialpage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inicialpage.resx">
+      <DependentUpon>inicialpage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Aula02\aula2_submit.md" />
+    <None Include="Aula03\aula3_submit.md" />
+    <None Include="Aula04\aula4_submit.md" />
+    <None Include="Aula05\aula5_submit.md" />
+    <None Include="Aula06\aula6_submit.md" />
+    <None Include="Aula07\aula7_submit.md" />
+    <None Include="Aula08\aula8_submit.md" />
+    <None Include="Aula09\aula9_submit.md" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Aula02\ex_2_1.png" />
+    <Content Include="Aula02\ex_2_2.png" />
+    <Content Include="Aula02\ex_2_3.png" />
+    <Content Include="Aula02\ex_2_4a.png" />
+    <Content Include="Aula03\ex_3_3a.png" />
+    <Content Include="Aula03\ex_3_3b.png" />
+    <Content Include="Aula03\ex_3_1c.png" />
+    <Content Include="Aula03\ex_3_2c.png" />
+    <Content Include="Aula03\ex_3_3c.png" />
+    <Content Include="Aula03\ex_3_3d.png" />
+    <Content Include="Aula04\ex_4_1_1.png" />
+    <Content Include="Aula04\ex_4_1_2.png" />
+    <Content Include="Aula04\ex_4_1_2.sql" />
+    <Content Include="Aula04\ex_4_1_3.png" />
+    <Content Include="Aula04\ex_4_1_3.sql" />
+    <Content Include="Aula04\ex_4_1_4.png" />
+    <Content Include="Aula04\ex_4_1_4.sql" />
+    <Content Include="Aula04\ex_4_1_5.png" />
+    <Content Include="Aula04\ex_4_1_6.png" />
+    <Content Include="Aula04\ex_4_1_1.sql" />
+    <Content Include="Aula04\ex_4_1_6.sql" />
+    <Content Include="Aula04\ex_4_1_5.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
